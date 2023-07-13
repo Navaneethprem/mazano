@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    margin-top: 50px;
+    width: 85%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    
+    display: inline;
+    margin: 0px 20px;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.buttons{
+    display: inline;
+    margin: 0px 10px;
+}
+.option{
+    color: black;
+}
+.photo1{
+    background-color: bisque;
+    padding-left: 200px;
+    margin: 50px 0px;
+    display: flex;
+}
+.text{
+    font-size: xx-large;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+.text p{
+    font-size: medium;
+}
+.pic{
+    padding-left: 200px;
+}
+button{
+    width: 120px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.title{
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255, 245, 234);
+    align-items: center;
+}
+.title h2{
+    height: 40%;
+    border-left: 5px solid red;
+}
+.title_list{
+    margin-left: 100px;
+}
+
+.pro_list{
+    display: inline;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.pro_link{
+    text-decoration: none;
+    color: black;
+}
+.pro_button{
+    display: inline;
+    margin-left: 100px;
+    width: 120px;
+    height: 10px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: red;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+.products{
+    display: inline;
+    justify-content: space-between;
+    
+}
+.row1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.product{
+    margin-left: 50px;
+    align-items: center;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 245, 234);
+}
+span{
+    color: brown;
+}
+.row2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    background-image: url(background.png);
+    background-size: cover;
+}
+.about{
+    width: 400px;
+    height: 200px;
+    margin-left: 500px;
+    background-color: azure;
+    align-items: center;
+    position: absolute;
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-left: 10px;
+    
+}
+.order_link{
+    text-align: center;
+    margin-top: 20px;
+}
+.blog{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(250, 238, 224);
+}
+.about_blog{
+    display: flex;
+    margin-left: 100px;
+}
+.blog1{
+    width: 250px;
+    height: 200px;
+    margin-left: 200px;
+}
+.link-more{
+    margin-top: 10px;
+    font-size: larger;
+    color: rgb(246, 7, 7);
+    text-decoration: none;
+}
+.contact{
+    background-color: beige;
+    margin-top: 150px;
+}
+.head{
+    padding-top: 20px;
+    margin-left: 50px;
+    width: 250px;
+}
+.head p{
+    margin-top: 10px;
+    font-size: larger;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.contact h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10p;
+}
+.newsletter{
+    margin-right: 50px;
+}
